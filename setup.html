@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot Setup Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bot Setup Guide</h1>
+        <p>Welcome to the Bot Setup Guide. Follow these steps to set up and run your bot.</p>
+
+        <h2>Step 1: Install Python</h2>
+        <p>Ensure you have Python 3.11.9 installed. If not, download and install it from the 
+        <a href="https://www.python.org/downloads/release/python-3119/">Python website</a>.</p>
+
+        <h2>Step 2: Install Dependencies</h2>
+        <p>Open a command prompt and run the following commands to install the required dependencies:</p>
+        <pre><code>pip install requests twitchio</code></pre>
+
+        <h2>Step 3: Navigate to Bot Directory</h2>
+        <p>Open File Explorer, navigate to the directory where your bot script is located. Click on the address bar where the path is displayed (e.g., <code>C:\path\to\your\bot\directory</code>), type <code>cmd</code>, and press <code>Enter</code>. This will open a command prompt in the correct directory.</p>
+
+        <h2>Step 4: Run the Bot</h2>
+        <p>Run the bot script by executing the following command in your command prompt:</p>
+        <pre><code>python index.py</code></pre>
+
+        <h2>Bot Configuration</h2>
+        <p>The bot will prompt you to enter the necessary credentials and settings when you run it for the first time. You will be asked for:</p>
+        <ul>
+            <li>Twitch Client ID</li>
+            <li>Twitch Client Secret</li>
+            <li>Twitch OAuth Token</li>
+            <li>Twitch Refresh Token</li>
+            <li>Bluesky Handle</li>
+            <li>Bluesky Password</li>
+            <li>Initial Twitch Channels</li>
+            <li>Whitelisted Users</li>
+        </ul>
+        <p>The configuration will be saved in a <code>config.json</code> file for future use.</p>
+
+        <h2>Troubleshooting</h2>
+        <p>If you encounter any issues, make sure to check the following:</p>
+        <ul>
+            <li>Python and pip are correctly installed.</li>
+            <li>All dependencies are installed.</li>
+            <li>Check the terminal output for any error messages and follow the instructions provided.</li>
+        </ul>
+    </div>
+</body>
+</html>
