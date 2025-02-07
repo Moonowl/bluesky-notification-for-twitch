@@ -1,7 +1,7 @@
 import requests
 
-BLUESKY_HANDLE = 'phantomowl.net'  # Replace with your Bluesky handle
-BLUESKY_PASSWORD = 'GamingisFun1!'  # Replace with your Bluesky password
+BLUESKY_HANDLE = ''  # Replace with your Bluesky handle
+BLUESKY_PASSWORD = ''  # Replace with your Bluesky password
 
 response = requests.post(
     'https://bsky.social/xrpc/com.atproto.server.createSession',
